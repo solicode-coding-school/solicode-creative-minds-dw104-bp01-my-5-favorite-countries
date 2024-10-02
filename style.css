@@ -1,0 +1,85 @@
+.container{
+ width: 77%;
+    display: flex;
+gap: 12px;
+}
+.container .maroc{
+    width: 30%;
+    height: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(143, 228, 228);;
+    border-radius: 2%;
+}
+.container .Italie{
+    width: 30%;
+    height: 55%;
+    position: relative;
+    /* bottom: 525px;
+    left: 31%; */
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(143, 228, 228);
+    border-radius: 2%; 
+}
+.imag{
+    top: 8px;
+    left: 33%;
+    position: relative;
+    width: 32%;
+}
+p{
+    margin: 10px;
+
+}
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+h2{
+position: relative;
+left: 12px;
+}
+
+.Italie img{
+    top: 8px;
+    left: 30%;
+    position: relative;
+    width: 34%;
+}
+.Italie ul li{
+    ul {
+        list-style-type: square;
+        color: green;
+        list-style-position: inside;
+        padding-left: 30px;
+      }
+}
+.Italie table{
+    table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        border: 1px solid black;
+        padding: 15px;
+        text-align: left;
+      }
+      
+      th {
+        background-color: #f2f2f2;
+      }
+}
+body{
+    width: 100%;
+}
